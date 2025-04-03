@@ -8,5 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/fonts',
     '@nuxt/eslint'
-  ]
+  ],
+
+  plugins: [{ src: '~/plugins/quasar', mode: 'client' }]
 })
